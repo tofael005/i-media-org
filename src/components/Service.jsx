@@ -1,36 +1,38 @@
 import Image from 'next/image';
 import React from 'react';
 import quran from "../../public/icon/quran.png"
+import mosque from "../../public/icon/mosque.png"
+import food from "../../public/icon/icon5.png"
 import Link from 'next/link';
 
 const Service = () => {
     return (
         <div className="mt-16 mb-14">
-            <h1>Our Services For Humanity</h1>
-            <p>---Service---</p>
+            <h1 className="text-center text-4xl font-bold my-5">Our Services For Humanity</h1>
+            <p className="text-center font-light mb-5">---Service---</p>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-6">
-                <div className="bg-[#f9f5f5] py-10 px-4">
-                    <Image className="block mx-auto" src={quran}></Image>
+                <div className="bg-[#f9f5f5] py-10 px-4 rounded-md">
+                    <Image className="block mx-auto h-[65px]" src={quran}></Image>
                     <div className="text-center">
-                        <h1 className="text-3xl font-bold my-5">Quran Memorization</h1>
+                        <h1 className="text-3xl font-bold my-5">Quran</h1>
                         <p className="mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                        <Link href="/readquran"><button className="block mx-auto bg-orange-200 p-4 rounded-md">Read More</button></Link>
+                        <Link href="/quran"><button className="block mx-auto rounded-md hover:bg-transparent hover:border-2 hover:border-bg-[#06DAD7] text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] p-4">Read More</button></Link>
                     </div>
                 </div>
-                <div className="bg-[#f9f5f5] py-10 px-4">
-                    <Image className="block mx-auto" src={quran}></Image>
+                <div className="bg-[#f9f5f5] py-10 px-4 rounded-md">
+                    <Image className="block mx-auto h-[65px]" src={mosque}></Image>
                     <div className="text-center">
-                        <h1 className="text-3xl font-bold my-5">Madrasa Development</h1>
+                        <h1 className="text-3xl font-bold my-5">Mosque</h1>
                         <p className="mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                        <Link href="/readquran"><button className="block mx-auto">Read More</button></Link>
+                        <Link href="/mosque"><button className="block mx-auto bg-[#FF8483] p-4 rounded-md hover:bg-transparent hover:border-2 hover:border-bg-[#06DAD7] text-white font-bold hover:text-[#23306C] duration-500">Read More</button></Link>
                     </div>
                 </div>
-                <div className="bg-[#f9f5f5] py-10 px-4">
-                    <Image className="block mx-auto" src={quran}></Image>
+                <div className="bg-[#f9f5f5] py-10 px-4 rounded-md">
+                    <Image className="block mx-auto  h-[65px]" src={food}></Image>
                     <div className="text-center">
-                        <h1 className="text-3xl font-bold my-5">Mosque Development</h1>
+                        <h1 className="text-3xl font-bold my-5">Child</h1>
                         <p className="mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                        <Link href="/readquran"><button className="block mx-auto">Read More</button></Link>
+                        <Link href="/child"><button className="block mx-auto hover:bg-transparent hover:border-2 hover:border-bg-[#06DAD7] text-white font-bold hover:text-[#23306C] duration-500 bg-[#DB9E2F] p-4 rounded-md">Read More</button></Link>
                     </div>
                 </div>
             </div>
