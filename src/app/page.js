@@ -1,5 +1,6 @@
 import About from '@/components/About';
 import Banner from '@/components/Banner';
+import Blog from '@/components/Blog';
 import Pillar from '@/components/Pillar';
 import PrayerTime from '@/components/PrayerTime';
 import Service from '@/components/Service';
@@ -13,6 +14,7 @@ const page = () => {
       <About />
       <Service />
       <Pillar />
+      <Blog />
     </div>
   );
 };

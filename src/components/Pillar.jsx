@@ -12,25 +12,25 @@ const Pillar = () => {
             <h1 className="text-center text-4xl font-bold my-6">Five Pillars Of Islam</h1>
             <p className="text-center font-light mb-7">Islam Pillars</p>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-5 text-center gap-6">
-                <div>
-                    <Image src={kalima}></Image>
-                    <h1>Shahadah</h1>
+                <div className='object-cover overflow-hidden border rounded-md'>
+                    <Image className="hover:scale-110 scale-100 duration-500 h-[200px] rounded-md" src={kalima}></Image>
+                    <h1 className="my-7 text-xl font-bold text-[#0B8998] uppercase">Shahadah</h1>
                 </div>
-                <div>
-                    <Image className="hover:" src={namaj}></Image>
-                    <h1>Salah</h1>
+                <div className='object-cover overflow-hidden border rounded-md'>
+                    <Image className="hover:scale-110 scale-100 duration-500 h-[200px] rounded-md" src={namaj}></Image>
+                    <h1 className="my-7 text-xl font-bold text-[#0B8998] uppercase">Salah</h1>
                 </div>
-                <div>
-                    <Image src={roja}></Image>
-                    <h1>Sawm</h1>
+                <div className='object-cover overflow-hidden border rounded-md'>
+                    <Image className="hover:scale-110 scale-100 duration-500 h-[200px] rounded-md" src={roja}></Image>
+                    <h1 className="my-7 text-xl font-bold text-[#0B8998] uppercase">Sawm</h1>
                 </div>
-                <div>
-                    <Image src={jakat}></Image>
-                    <h1>Zakah</h1>
+                <div className='object-cover overflow-hidden border rounded-md'>
+                    <Image className="hover:scale-110 scale-100 duration-500 h-[200px] rounded-md" src={jakat}></Image>
+                    <h1 className="my-7 text-xl font-bold text-[#0B8998] uppercase">Zakah</h1>
                 </div>
-                <div>
-                    <Image src={hajj}></Image>
-                    <h1>Hajj</h1>
+                <div className='object-cover overflow-hidden border rounded-md'>
+                    <Image className="hover:scale-110 scale-100 duration-500 h-[200px] rounded-md" src={hajj}></Image>
+                    <h1 className="my-7 text-xl font-bold text-[#0B8998] uppercase">Hajj</h1>
                 </div>
             </div>
         </div>
