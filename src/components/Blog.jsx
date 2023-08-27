@@ -16,7 +16,7 @@ const Blog = () => {
                 <div>
                     <Image className="w-full h-[260px] rounded-md" src={blog}></Image>
                     <div className="mt-6">
-                        <h1 className="mb-2 font-semibold">Four Tips to Help You eat right</h1>
+                        <h1 className="mb-2 font-semibold cursor-pointer">Four Tips to Help You eat right</h1>
                         <div className="flex justify-between items-center text-xs mt-2">
                             <div className="flex justify-between items-center gap-2">
                                 <GrUserAdmin className='text-sky-300 font-semibold' />
@@ -32,7 +32,7 @@ const Blog = () => {
                 <div>
                     <Image className="w-full h-[260px] rounded-md" src={blog2}></Image>
                     <div className="mt-6">
-                        <h1 className="mb-2 font-semibold">People during the Ramadan.</h1>
+                        <h1 className="mb-2 font-semibold cursor-pointer">People during the Ramadan.</h1>
                         <div className="flex justify-between items-center text-xs mt-2">
                             <div className="flex justify-between items-center gap-2">
                                 <GrUserAdmin className='text-sky-300 font-semibold' />
@@ -48,7 +48,7 @@ const Blog = () => {
                 <div>
                     <Image className="w-full h-[260px] rounded-md" src={blog3}></Image>
                     <div className="mt-6">
-                        <h1 className="mb-2 font-semibold">Importance of Marriage in Islam.</h1>
+                        <h1 className="mb-2 font-semibold cursor-pointer">Importance of Marriage in Islam.</h1>
                         <div className="flex justify-between items-center text-xs mt-2">
                             <div className="flex justify-between items-center gap-2">
                                 <GrUserAdmin className='text-sky-300 font-semibold' />
@@ -64,7 +64,7 @@ const Blog = () => {
                 <div>
                     <Image className="w-full h-[260px] rounded-md" src={blog4}></Image>
                     <div className="mt-6">
-                        <h1 className="mb-2 font-semibold">The Importance thinks for Sunnah</h1>
+                        <h1 className="mb-2 font-semibold cursor-pointer">The Importance thinks for Sunnah</h1>
                         <div className="flex justify-between items-center text-xs mt-2">
                             <div className="flex justify-between items-center gap-2">
                                 <GrUserAdmin className='text-sky-300 font-semibold' />
