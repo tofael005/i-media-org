@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="grid md:grid-cols-4 px-3 gap-6">
                     <div className='w-full'>
                         <h1 className="text-2xl my-5 text-white font-bold">LOGO</h1>
-                        <p className="font-light text-slate-300 my-2">We are the best Educational Organization. Let’s know about Islam And the Holy Quran!</p>
+                        <p className="font-light text-slate-300 my-2 leading-loose">We are the best Educational Organization. Let’s know about Islam And the Holy Quran!</p>
                     </div>
                     <div className='w-full'>
                         <h1 className="text-2xl my-5 text-white font-bold">Our Services</h1>
@@ -32,8 +32,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <hr className='my-14' />
             </div>
-            <h1>copyright</h1>
+            <h1 className='text-center font-light pb-4 text-slate-300'>© Copyright 2023 | Islam Media Org | All right reserved.</h1>
         </div>
     );
 };
