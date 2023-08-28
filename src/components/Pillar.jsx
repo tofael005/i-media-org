@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const Pillar = () => {
     return (
-        <div className="mt-20 mb-10">
+        <div className="mt-20 mb-20">
             <h1 className="text-center text-4xl font-bold my-6 text-[#23306C]">Five Pillars Of Islam</h1>
             <p className="text-center font-light mb-7 text-[#0B8998]">---Islam Pillars---</p>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-5 text-center gap-6">

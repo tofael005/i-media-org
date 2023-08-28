@@ -15,8 +15,8 @@ const page = () => {
       <About />
       <Service />
       <Pillar />
-      <Blog />
       <Support />
+      <Blog />
     </div>
   );
 };

@@ -5,12 +5,12 @@ import { BsStopwatch } from 'react-icons/bs';
 const PrayerTime = () => {
     return (
         <div className='mt-10 max-w-[1240px] mx-auto'>
-            <h1 className="text-center text-3xl font-bold">Prayar Times</h1>
-            <p className="text-center mt-2 ">---Today---</p>
+            <h1 className="text-center text-4xl text-[#23306C] font-bold">Prayar Times</h1>
+            <p className="text-center mt-2 text-[#0B8998]">---Today---</p>
 
             <div className="grid md:grid-cols-5 mt-8 gap-6">
                 <div className="border rounded-md flex items-center gap-3 p-4">
-                    <span className="text-5xl text-center font-extrabold">
+                    <span className="text-5xl text-center text-[#23306C] font-extrabold">
                         <BsStopwatch />
                     </span>
                     <div className="p-3">
@@ -19,7 +19,7 @@ const PrayerTime = () => {
                     </div>
                 </div>
                 <div className="border rounded-md flex items-center gap-3 p-4">
-                    <span className="text-5xl text-center font-extrabold">
+                    <span className="text-5xl text-[#23306C] text-center font-extrabold">
                         <BsStopwatch />
                     </span>
                     <div className="p-3">
@@ -28,7 +28,7 @@ const PrayerTime = () => {
                     </div>
                 </div>
                 <div className="border rounded-md flex items-center gap-3 p-4">
-                    <span className="text-5xl text-center font-extrabold">
+                    <span className="text-5xl text-[#23306C] text-center font-extrabold">
                         <BsStopwatch />
                     </span>
                     <div className="p-3">
@@ -37,7 +37,7 @@ const PrayerTime = () => {
                     </div>
                 </div>
                 <div className="border rounded-md flex items-center gap-3 p-4">
-                    <span className="text-5xl text-center font-extrabold">
+                    <span className="text-5xl text-[#23306C] text-center font-extrabold">
                         <BsStopwatch />
                     </span>
                     <div className="p-3">
@@ -46,7 +46,7 @@ const PrayerTime = () => {
                     </div>
                 </div>
                 <div className="border rounded-md flex items-center gap-3 p-4">
-                    <span className="text-5xl text-center font-extrabold">
+                    <span className="text-5xl text-[#23306C] text-center font-extrabold">
                         <BsStopwatch />
                     </span>
                     <div className="p-3">
