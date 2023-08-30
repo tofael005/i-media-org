@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <Link rel='shorcut icon' href="favicon.png" type='image/x-icon' />
+
       </Head>
       <body className={inter.className}><Nav /> <div className="md:min-h-[calc(100vh-100px)]">{children}</div> <Footer /></body>
     </html>

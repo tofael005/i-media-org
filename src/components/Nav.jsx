@@ -1,28 +1,31 @@
+"use client"
 import Link from 'next/link';
-// import React, { useState } from 'react';
-// import { AiOutlineClose, AiOutlineLogin } from 'react-icons/ai';
-// import { GiHamburgerMenu  } from 'react-icons/gi';
+import { AiOutlineClose } from 'react-icons/ai';
+import { GiHamburgerMenu  } from 'react-icons/gi';
 import { AiOutlineLogin  } from 'react-icons/ai';
+import { useState } from 'react';
+import Image from 'next/image';
+import logo from "../../public/logo.png"
 
 const Nav = () => {
 
-    // const [toggle, setToggle] = useState()
+    const [toggle, setToggle] = useState(false)
     return (
         <div className="border-b-0">
-            <div className="max-w-[1240px] mx-auto flex justify-between py-5 items-center">
+            <div className="max-w-[1240px] mx-auto px-3 flex justify-between py-5 items-center">
                 <div>
-                    <h1>LOGO</h1>
+                    <Image className="w-32" src={logo}></Image>
                 </div>
 
 
-                {/* <span className='md:hidden'>
+                <span className='md:hidden'>
                     {
                         toggle ? <AiOutlineClose className='text-2xl' onClick={() => setToggle(!toggle)} /> : <GiHamburgerMenu className="text-2xl" onClick={() => setToggle(!toggle)} />
                     }
-                </span> */}
+                </span>
 
 
-                <ul className="flex items-center gap-8">
+                <ul className={`flex items-center duration-300 flex-col py-5 md:p-0 text-white md:text-gray-900 bg-opacity-90 top-14 bg-black md:bg-transparent w-full text-center md:w-auto md:flex-row gap-6 absolute md:static z-50 ${toggle ? "left-0" : "-left-full"}`}>
                     <li>
                         <Link href="/">Home</Link>
                     </li>
