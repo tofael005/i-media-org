@@ -12,7 +12,7 @@ const Service = () => {
             <p className="text-center font-light mb-5 text-[#0B8998]">---Service---</p>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-6">
                 <div className="bg-[#f9f5f5] py-10 px-4 rounded-md">
-                    <Image className="block mx-auto h-[65px]" src={quran}></Image>
+                    <Image className="block mx-auto h-[65px]" src={quran} alt=''></Image>
                     <div className="text-center">
                         <h1 className="text-3xl font-bold my-5 text-[#23306C]">Quran</h1>
                         <p className="mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
@@ -20,7 +20,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div className="bg-[#f9f5f5] py-10 px-4 rounded-md">
-                    <Image className="block mx-auto h-[65px]" src={mosque}></Image>
+                    <Image className="block mx-auto h-[65px]" src={mosque} alt=''></Image>
                     <div className="text-center">
                         <h1 className="text-3xl font-bold my-5 text-[#23306C]">Mosque</h1>
                         <p className="mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
@@ -28,7 +28,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div className="bg-[#f9f5f5] py-10 px-4 rounded-md">
-                    <Image className="block mx-auto  h-[65px]" src={food}></Image>
+                    <Image className="block mx-auto  h-[65px]" src={food} alt=''></Image>
                     <div className="text-center">
                         <h1 className="text-3xl font-bold my-5 text-[#23306C]">Child</h1>
                         <p className="mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Banner = () => {
     return (
-        <div className="bg-[#EBFAFA]">
+        <div className="bg-[#EBFAFA] mt-1">
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8 py-10 px-4">
                 <div className="mt-24 items-center">
                     <h1 className="text-[#0B8998]">Let's Know Islam</h1>

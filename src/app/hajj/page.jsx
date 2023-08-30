@@ -1,10 +1,11 @@
 import React from 'react';
 import hajj from "../../../public/hajj.jpeg"
+import hajj2 from "../../../public/hajj/hajj2.webp"
 import Image from 'next/image';
 
 const page = () => {
     return (
-        <div className='max-w-[1140px] mx-auto font-bangla mb-10'>
+        <div className='max-w-[1140px] mx-auto font-bangla mt-4 mb-28'>
             <div className='px-3'>
                 <Image className="w-full object-cover h-[580px]" src={hajj} alt=''></Image>
                 <h1 className='text-4xl font-extrabold underline text-center my-8 font-bangla'>হাজ্জ </h1>
@@ -30,6 +31,8 @@ const page = () => {
                 <p className='font-bangla mt-6 text-justify'><span className='text-xl font-bold'>দুই)</span> কিছু মানুষ অভিযোগ করতে পারার মাধ্যমে দেখাতে চান যে, তিনি যে-সে পরিবার থেকে আসেননি। তাঁরা বড়ই উচ্চ জাতের মানুষ। (এমন ব্যবহার এরা নিজের অজান্তে করে নাকি জেনে বুঝে করে, জানি না।)</p>
 
                 <p className='font-bangla mt-6 text-justify'><span className='text-xl font-bold'>তিন)</span> আর কিছু ব্যক্তি রয়েছেন, তাঁরা ভীষণ অনুকরণ প্রিয়। অন্যেরা যেখানে অভিযোগ করছে, সেখানে চুপচাপ বসে থাকলে পাছে আবার জাত চলে যায়, তাই এই শ্রেণীর লোকেরা অপরের সাথে তালে তাল মিলিয়ে চলে। তাল মেলানোর বিষয়টা কতটা যুক্তিপূর্ণ, এসব সাত পাঁচ তারা আর ভেবে দেখে না।</p>
+
+                <Image className="w-full object-cover h-[580px] my-6"  src={hajj2} alt=''></Image>
 
                 <p className='font-bangla mt-6 text-justify'>এখানে আমরা রাজকীয় খাবার খেতে নিশ্চয় আসিনি। বরং রাজকীয় জীবন ছেড়ে হাজ্জের এই কয়েকটা দিন দরিদ্ররা কেমন জীবন যাপন করে, তার ওপরও একটা ধারণা নিতে এসেছি। আল্লাহ্‌ অহেতুক তো ধনীদের উপর হাজ্জ ফরয করেনাই। আমরা হাজ্জের হাতে গোনা কয়েকটা দিন যে অল্প বিস্তর কষ্টের (আমি এসবকে কষ্টের বদলে অচেনা অভিজ্ঞতা বলে আখ্যায়িত করতে চাই) মুখোমুখি হবো, দরিদ্ররা সারাজীবন এরচেয়ে বহুগুণ বেশি কষ্টে থাকে।</p>
 

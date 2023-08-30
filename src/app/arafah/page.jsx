@@ -4,7 +4,7 @@ import arafah from "../../../public/arafah.jpeg"
 
 const page = () => {
     return (
-        <div className='max-w-[1140px] mx-auto font-bangla mb-10'>
+        <div className='max-w-[1140px] mx-auto font-bangla mt-4 mb-28'>
             <div className='px-3'>
                 <Image className="w-full object-cover h-[580px]" src={arafah} alt=''></Image>
                 <h1 className='text-4xl font-extrabold underline text-center my-8 font-bangla'>ইয়াওমু আরাফা </h1>

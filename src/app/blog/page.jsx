@@ -42,7 +42,7 @@ const page = () => {
                         </div>
                         <hr />
                         <div className="my-6">
-                            <h1 className="text-xl font-bold my-3 text-[#23306C]">Five Thinks for Sunnah</h1>
+                            <h1 className="text-xl font-bold my-3 text-[#23306C]">SALAH is the most importent part in Islam</h1>
                             <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam similique voluptates expedita quibusdam dignissimos numquam ut ex molestias, id ad? Consequuntur blanditiis quisquam architecto alias cupiditate hic et tempora incidunt! <span className="text-[#0B8998] font-bold cursor-pointer underline">Read More</span></p>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const page = () => {
                         </div>
                         <hr />
                         <div className="my-6">
-                            <h1 className="text-xl font-bold my-3 text-[#23306C]">Five Thinks for Sunnah</h1>
+                            <h1 className="text-xl font-bold my-3 text-[#23306C]">SUNNAH</h1>
                             <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam similique voluptates expedita quibusdam dignissimos numquam ut ex molestias, id ad? Consequuntur blanditiis quisquam architecto alias cupiditate hic et tempora incidunt! <span className="text-[#0B8998] font-bold cursor-pointer underline">Read More</span></p>
                         </div>
                     </div>
@@ -94,8 +94,8 @@ const page = () => {
                         </div>
                         <hr />
                         <div className="my-6">
-                            <h1 className="text-xl font-bold my-3 text-[#23306C]">Five Thinks for Sunnah</h1>
-                            <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam similique voluptates expedita quibusdam dignissimos numquam ut ex molestias, id ad? Consequuntur blanditiis quisquam architecto alias cupiditate hic et tempora incidunt! <span className="text-[#0B8998] font-bold cursor-pointer underline">Read More</span></p>
+                            <h1 className="text-xl font-bold my-3 text-[#23306C]">RAMADAN Kareem</h1>
+                            <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam similique voluptates expedita quibusdam dignissimos numquam ut ex molestias, id ad? Consequuntur blanditiis quisquam architecto alias cupiditate hic et tempora incidunt!<Link href="/romadan"><span className="text-[#0B8998] font-bold cursor-pointer underline">Read More</span></Link></p>
                         </div>
                     </div>
                 </div>
@@ -108,10 +108,12 @@ const page = () => {
 
                     <div className='mt-6 font-light'>
                         <Link href="/blogcard"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>Hajj Guid (2)</h1></Link>
-                       <Link href="/helpingpoor"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>Helping Poor (2)</h1></Link>
+                       <Link href="/helpingpoor"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300 mb-5'>Helping Poor (2)</h1></Link>
+                       <Link href="/zakat"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>Zakat (4)</h1></Link>
                         <Link href="/learningquran"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>Learning Quran (2)</h1></Link>
                         <Link href="/traveling"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>Traveling World (2)</h1></Link>
                         <Link href="/married"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>Importance of Marriage (2)</h1></Link>
+                        <Link href="/roja"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>Sawm (5)</h1></Link>
                         <Link href="/rulsofislam"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>Islamic Rules (4)</h1></Link>
                     </div>
 
@@ -122,7 +124,7 @@ const page = () => {
                         <div className='border flex gap-3 items-center rounded-md p-2 mt-5'>
                             <Image className="w-[50px] h-[50px] rounded-md" src={blog3} alt=''></Image>
                             <div className="">
-                                <Link href="/married"><h1 className="mb-2 font-semibold cursor-pointer text-[#23306C]">Importance of Marriage in Islam.</h1></Link>
+                                <Link href="/married"><h1 className="mb-2 font-semibold cursor-pointer text-[#23306C]">Marriage in Islam.</h1></Link>
                                 <div className="flex items-center text-xs mt-2">
                                     <div className="flex justify-between items-center gap-2">
                                         <RiAdminLine className='text-[#0B8998] font-semibold' />
@@ -136,9 +138,9 @@ const page = () => {
                             </div>
                         </div>
                         <div className='border flex gap-3 items-center rounded-md p-2 mt-3'>
-                            <Image className="w-[50px] h-[50px] rounded-md" src={blog3}></Image>
+                            <Image className="w-[50px] h-[50px] rounded-md" src={blog5} alt=''></Image>
                             <div className="">
-                                <Link href="/married"><h1 className="mb-2 font-semibold cursor-pointer text-[#23306C]">Importance of Marriage in Islam.</h1></Link>
+                                <Link href="/helpingpoor"><h1 className="mb-2 font-semibold cursor-pointer text-[#23306C]">Help NOW!</h1></Link>
                                 <div className="flex items-center text-xs mt-2">
                                     <div className="flex justify-between items-center gap-2">
                                         <RiAdminLine className='text-[#0B8998] font-semibold' />
@@ -152,9 +154,9 @@ const page = () => {
                             </div>
                         </div>
                         <div className='border flex gap-3 items-center rounded-md p-2 mt-3'>
-                            <Image className="w-[50px] h-[50px] rounded-md" src={blog3} alt=''></Image>
+                            <Image className="w-[50px] h-[50px] rounded-md" src={blog} alt=''></Image>
                             <div className="">
-                                <Link href="/married"><h1 className="mb-2 font-semibold cursor-pointer text-[#23306C]">Importance of Marriage in Islam.</h1></Link>
+                                <Link href="/blogcard"><h1 className="mb-2 font-semibold cursor-pointer text-[#23306C]">HAJJ</h1></Link>
                                 <div className="flex items-center text-xs mt-2">
                                     <div className="flex justify-between items-center gap-2">
                                         <RiAdminLine className='text-[#0B8998] font-semibold' />

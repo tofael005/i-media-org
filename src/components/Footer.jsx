@@ -1,13 +1,16 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import logo from "../../public/logo.png"
 
 const Footer = () => {
     return (
         <div className="bg-[#262B3E]">
             <div className="max-w-[1240px] mx-auto">
                 <div className="grid md:grid-cols-4 px-3 gap-6">
-                    <div className='w-full'>
-                        <h1 className="text-2xl my-5 text-white font-bold">LOGO</h1>
+                    <div className='w-full mt-6'>
+                        {/* <h1 className="text-2xl my-5 text-white font-bold"></h1> */}
+                        <Image className="w-32" src={logo} alt=''></Image>
                         <p className="font-light text-slate-300 my-2 leading-loose">We are the best Educational Organization. Let’s know about Islam And the Holy Quran!</p>
                     </div>
                     <div className='w-full'>
