@@ -6,7 +6,7 @@ const page = () => {
     return (
         <div className='mt-16 bg-[#EBFAFA] py-12'>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-5">
-                <Image className="rounded-md" src={about}></Image>
+                <Image className="rounded-md" src={about} alt=''></Image>
                 <div className="mt-6">
                     <p className="mb-5 text-[#0B8998]">About Us</p>
                     <h1 className="text-4xl font-bold mb-6 text-[#23306C]">Welcome to Almanar Islamic Center for Muslims</h1>

@@ -50,7 +50,7 @@ const PrayerTime = () => {
                         <BsStopwatch />
                     </span>
                     <div className="p-3">
-                        <h1 className="font-bold text-[#0B8998] mb-2">Isha'a</h1>
+                        <h1 className="font-bold text-[#0B8998] mb-2">Ishaa</h1>
                         <p>5:10AM</p>
                     </div>
                 </div>

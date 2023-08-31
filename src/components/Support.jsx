@@ -16,7 +16,7 @@ const Support = () => {
                             <button className="mt-8 rounded-md hover:bg-transparent hover:border-2 hover:border-bg-[#06DAD7] text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] px-8 py-4">Donate Now</button>
                         </Link>
                     </div>
-                    <Image className="w-full h-[400px]" src={support}></Image>
+                    <Image className="w-full h-[400px]" src={support} alt=''></Image>
                 </div>
             </div>
         </div>
