@@ -7,9 +7,9 @@ const page = () => {
         <div className='max-w-[1140px] mx-auto font-bangla mt-4 mb-28'>
             <div className='px-3'>
                 <Image className="w-full object-cover md:h-[580px]" src={arafah} alt=''></Image>
-                <h1 className='text-4xl font-extrabold underline text-center my-8 font-bangla'>ইয়াওমু আরাফা </h1>
+                <h1 className='text-3xl font-extrabold underline text-center my-8 font-bangla'>ইয়াওমু আরাফা </h1>
                 {/* Number Blog One  */}
-                <p className='font-bangla mt-6 text-justify'><span className='text-4xl font-bold'>এক</span> জিলহজ মাস বছরের অন্যতম গুরুত্বপূর্ণ। আর জিলহজের মহিমাপূর্ণ একটি দিন হলো নয় তারিখ। হাদিসের ভাষ্য অনুযায়ী সেই দিনটির নাম ‘ইয়াওমু আরাফা’।</p>
+                <p className='font-bangla mt-6 text-justify'><span className='text-3xl font-bold'>এক</span> জিলহজ মাস বছরের অন্যতম গুরুত্বপূর্ণ। আর জিলহজের মহিমাপূর্ণ একটি দিন হলো নয় তারিখ। হাদিসের ভাষ্য অনুযায়ী সেই দিনটির নাম ‘ইয়াওমু আরাফা’।</p>
                 <p className='font-bangla mt-6 text-justify'>এ দিনটি হজের মূল দিন। আরাফার ময়দানে হাজি সাহেবদের অবস্থান এ দিনেই হয়ে থাকে। আল্লাহ তাআলা এ দিনকে বিশেষ সম্মানে ভূষিত করেছেন। দ্বীন-ইসলাম পূর্ণতার ঘোষণা দিয়েছেন এ দিনেই। এ দিনেই অবতীর্ণ হয়েছে কোরআনে কারিমের সর্বশেষ আয়াত, ‘আজ তোমাদের জন্য তোমাদের দ্বীন পূর্ণাঙ্গ করলাম এবং তোমাদের প্রতি আমার নিয়ামত পরিপূর্ণ করলাম এবং ইসলাম তোমাদের দ্বীন মনোনীত করলাম। (সুরা মায়েদা, আয়াত : ০৩)</p>
 
                 {/* Number blog Two  */}

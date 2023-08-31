@@ -11,18 +11,17 @@ import blog4 from "../../../public/blog/list-post-2.jpg"
 import blog5 from "../../../public/blog/blog2.jpeg"
 
 
-
 const page = () => {
     return (
-        <div className="max-w-[1240px] mx-auto my-14 px-3">
+        <div className="max-w-[1240px] mx-auto my-14 overflow-hidden">
             <h1 className="text-center text-3xl font-bold mb-6 text-[#23306C]">Letest Blog</h1>
             <div className="md:flex gap-10 px-3">
                 {/* Blog card section */}
-                <div className='w-[840px]'> 
+                <div className='md:w-[840px]'> 
                      {/* Blog One  */}
                     <div>
                         <div>
-                            <Image className='w-full object-cover md:h-[400px]' src={blog4} alt=''></Image>
+                            <Image className='w-full rounded-md object-cover md:h-[400px]' src={blog4} alt=''></Image>
                             <div className='md:flex gap-3 text-slate-500 font-light my-4'>
                                 <div className='md:flex items-center gap-4'>
                                     <div className='flex items-center gap-3'>
@@ -42,13 +41,13 @@ const page = () => {
                         </div>
                         <hr />
                         <div className="my-6">
-                            <h1 className="text-xl font-bold mt-3 text-[#23306C]">SALAH</h1>
+                            <h1 className="text-xl font-bangla font-bold mt-3 text-[#23306C]">সালাত</h1>
                             <p className='font-bangla text-justify my-6'>সালাত বা নামায নিছক প্রার্থনা নয় | এটি আমাদেরকে আমাদের স্রষ্টার অনুগত করে | তাই নামায হচ্ছে আনুগত্যের অনুশীলন | নামাযের আরবি শব্দ হল Salah, এই শব্দটির অর্থ চারটি প্রসিদ্ধ রয়েছে | ১. প্রার্থনা করা, ২. অনুগ্রহ করা, ৩. পবিত্রতা বর্ণনা করা, এবং ৪. ক্ষমা প্রার্থনা করা |পারিভাষিক অর্থে সালাত বা নামায হচ্ছে এমন একটা নির্দিষ্ট ইবাদত যা নির্ধারিত সময়ে সুনির্দিষ্ট পদ্ধতিতে আদায় করা হয় | পাঁচ ওয়াক্ত নামাযের মাধ্যমে একজন মুসলমান ইসলামের পরিচালিত হয় |<Link href="/salah"><span className="text-[#0B8998] font-bold cursor-pointer ">Read More</span></Link></p>
                         </div>
                     </div>
                     <div>
                         <div>
-                            <Image className='w-full object-cover md:h-[400px]' src={blog5} alt=''></Image>
+                            <Image className='w-full rounded-md object-cover md:h-[400px]' src={blog5} alt=''></Image>
                             <div className='md:flex gap-3 text-slate-500 font-light my-4'>
                                 <div className='md:flex items-center gap-4'>
                                     <div className='flex items-center gap-3'>
@@ -74,7 +73,7 @@ const page = () => {
                     </div>
                     <div>
                         <div>
-                            <Image className='w-full object-cover md:h-[400px]' src={blog} alt=''></Image>
+                            <Image className='w-full rounded-md object-cover md:h-[400px]' src={blog} alt=''></Image>
                             <div className='md:flex gap-3 text-slate-500 font-light my-4'>
                                 <div className='md:flex items-center gap-4'>
                                     <div className='flex items-center gap-3'>
@@ -99,13 +98,10 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-
-
                 {/* Category Section  */}
                 <div className='w-[400px]'>
                     <h1 className='text-2xl font-semibold my-4'>Categories</h1>
                     <hr />
-
                     <div className='mt-6 font-light'>
                         <Link href="/blogcard"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>HAJJ GUID (2)</h1></Link>
                        <Link href="/helpingpoor"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300 mb-5'>HELP PEOPLE (2)</h1></Link>
@@ -116,7 +112,6 @@ const page = () => {
                         <Link href="/roja"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>SAWM (5)</h1></Link>
                         <Link href="/rulsofislam"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>ISLAMIC STORY (4)</h1></Link>
                     </div>
-
                     {/* Recent Post Section  */}
                     <div className='mt-28'>
                         <h1 className='text-2xl font-semibold my-4'>Recent Post</h1>
