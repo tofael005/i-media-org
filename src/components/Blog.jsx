@@ -65,7 +65,7 @@ const Blog = () => {
                 <div className='border rounded-md p-2'>
                     <Image className="w-full h-[260px] rounded-md" src={blog4} alt=''></Image>
                     <div className="mt-6">
-                        <Link href="/sunnah"><h1 className="mb-2 text-[#23306C] font-semibold cursor-pointer">Sunnah.</h1></Link>
+                        <Link href="/sunnah"><h1 className="mb-2 text-[#23306C] font-semibold cursor-pointer">Sunnah</h1></Link>
                         <div className="flex justify-between items-center text-xs mt-2">
                             <div className="flex justify-between items-center gap-2">
                                 <RiAdminLine className='text-[#0B8998] font-semibold' />
