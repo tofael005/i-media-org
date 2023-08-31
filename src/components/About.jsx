@@ -8,7 +8,7 @@ const About = () => {
         <div className="mt-24">
             <div className="max-w-[1240px] mx-auto">
                 <div className="grid md:grid-cols-2 gap-3 px-3">
-                    <Image className="rounded-md" src={about}></Image>
+                    <Image className="rounded-md" src={about} alt=''></Image>
                     <div className="mt-8">
                         <h1 className="font-bold text-[#0B8998]">About Us</h1>
                         <h1 className="text-4xl font-bold leading-snug my-3 text-[#23306C]">Welcome to Almanar Islamic Center for Muslims</h1>
