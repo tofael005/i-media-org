@@ -10,7 +10,7 @@ const Service = () => {
         <div className="mt-16 mb-14">
             <h1 className="text-center text-4xl font-bold my-5 text-[#23306C]">Our Services For Humanity</h1>
             <p className="text-center font-light mb-5 text-[#0B8998]">---Service---</p>
-            <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-6">
+            <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-6 px-3">
                 <div className="bg-[#f9f5f5] py-10 px-4 rounded-md">
                     <Image className="block mx-auto h-[65px]" src={quran} alt=''></Image>
                     <div className="text-center">
