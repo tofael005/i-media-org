@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const page = () => {
@@ -40,6 +41,10 @@ const page = () => {
                 <p className="mb-2"><span className='text-red-600'>বাংলা উচ্চারণ :</span> সিরাতা’ল্লা যি-না আনআ’মতা আ’লাইহিম গা’ইরিল মাগ’দু’বি আ’লাইহিম ওয়ালা দ্দ—ল্লি-ন।</p>
                 <p className="mb-2"><span className='text-green-700'>বাংলা অনুবাদ :</span> তাদের পথ যাদেরকে আপনি স্বাচ্ছন্দ্য, অনুগ্রহ, কল্যাণ দিয়েছেন, যারা নিজের এবং অন্যের ক্রোধের শিকার হয় না এবং ভুল পথে যায় না।</p>
             </div>
+
+            <Link href="/quran">
+                <button className="mt-8 block mx-auto rounded-md hover:bg-transparent border text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] px-8 py-4">Back to Quran</button>
+            </Link>
         </div>
     );
 };

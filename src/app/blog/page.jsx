@@ -107,6 +107,7 @@ const page = () => {
                        <Link href="/helpingpoor"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300 mb-5'>HELP PEOPLE (2)</h1></Link>
                        <Link href="/zakat"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>ZAKAT (4)</h1></Link>
                         <Link href="/quran"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>QURAN (1)</h1></Link>
+                        <Link href="/child"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>CHILD (3)</h1></Link>
                         <Link href="/traveling"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>TRAVELING (2)</h1></Link>
                         <Link href="/marriagecard"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>MARRIAGE (2)</h1></Link>
                         <Link href="/roja"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>SAWM (5)</h1></Link>
