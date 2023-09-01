@@ -21,6 +21,7 @@ const page = () => {
                 <hr className='my-3' />
 
                 <Link href="/ozu"><h1 className='hover:text-[#0B8998] duration-500'>ওজু করা</h1></Link>
+                <hr className='my-3' />
 
                 </div>
             </div>

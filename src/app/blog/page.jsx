@@ -68,7 +68,7 @@ const page = () => {
                         <hr />
                         <div className="my-6">
                             <h1 className="text-xl font-bangla font-bold mb-2 text-[#23306C]">সুন্নাহ</h1>
-                            <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam similique voluptates expedita quibusdam dignissimos numquam ut ex molestias, id ad? Consequuntur blanditiis quisquam architecto alias cupiditate hic et tempora incidunt! <Link href="/sunnah"><span className="text-[#0B8998] font-bold cursor-pointer ">Read More</span></Link></p>
+                            <p className="font-bangla text-justify">মুসলিমদের ইসলাম ধর্মে মানুষদের সম্পূর্ণ জীবন ব্যবস্থা তৈরি করে দেওয়া হয়েছে। এখন যদি মুসলিমরা সে অনুযায়ী আমল করতে পারে, তাহলে সে ফল ভোগ করতে পারবে। আর সেই জন্যই আল্লাহ তা’আলা আমাদের জন্য রহমত হিসেবে নবী সা: এবং কোরআনকে প্রেরণ করেছেন। আর নবী সা: আমাদের জন্য কোরআন ও হাদিস রেখে গেছেন। আর বেশ কিছু Islamic bangla dua বা ইসলামি দোয়া রয়েছে, যেগুলো আমাদের চলা-পেরায় বেশ কাজে দেয়। বিপদ আপদ, ক্ষতিগ্রস্থতা, ব্যথা, চিন্তামুক্ত থাকা, ফজিলত সম্পূর্ণ দোয়া সহ ইত্যাদি রাসূল সা: আমাদের শিখিয়েছেন। <Link href="/sunnah"><span className="text-[#0B8998] font-bold cursor-pointer ">Read More</span></Link></p>
                         </div>
                     </div>
                     <div>
@@ -108,6 +108,7 @@ const page = () => {
                        <Link href="/zakat"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>ZAKAT (4)</h1></Link>
                         <Link href="/quran"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>QURAN (1)</h1></Link>
                         <Link href="/child"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>CHILD (3)</h1></Link>
+                        <Link href="/sunnah"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>SUNNAH (7)</h1></Link>
                         <Link href="/traveling"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>TRAVELING (2)</h1></Link>
                         <Link href="/marriagecard"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>MARRIAGE (2)</h1></Link>
                         <Link href="/roja"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>SAWM (5)</h1></Link>

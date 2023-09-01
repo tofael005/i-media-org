@@ -37,7 +37,7 @@ const page = () => {
             </div>
 
             <Link href="/quran">
-                <button className="mt-8 block mx-auto rounded-md hover:bg-transparent border text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] px-8 py-4">Back to Quran</button>
+                <button className="mt-8 block mx-auto mb-6 rounded-md hover:bg-transparent border text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] px-8 py-4">Back to Quran</button>
             </Link>
         </div>
     );
