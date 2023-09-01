@@ -6,7 +6,7 @@ const page = () => {
     return (
         <div className='max-w-[1240px] mx-auto mt-6 font-bangla mb-28'>
             <h1 className='text-center text-2xl my-6'>মাসনুন দোয়া:</h1>
-            <div className='grid md:grid-cols-2 gap-6'>
+            <div className='grid md:grid-cols-2 gap-6 px-3'>
                 <div className='mb-20'>
                     <div className='border flex items-center gap-3 p-2 mb-2 rounded-md'>
                         <Image className='w-[70px] rounded-md h-[70px]' src={dua} alt=''></Image>
