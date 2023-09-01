@@ -17,7 +17,7 @@ const Blog = () => {
                 <div className='border rounded-md p-2'>
                     <Image className="w-full h-[260px] rounded-md" src={blog} alt=''></Image>
                     <div className="mt-6">
-                        <Link href="/fortrips"><h1 className="mb-2 font-semibold cursor-pointer text-[#23306C]">Dua.</h1></Link>
+                        <Link href="/fortrips"><h1 className="mb-2 font-bangla font-semibold cursor-pointer text-[#23306C]">দোআ</h1></Link>
                         <div className="flex justify-between items-center text-xs mt-2">
                             <div className="flex justify-between items-center gap-2">
                                 <RiAdminLine className='text-[#0B8998] font-semibold' />
@@ -33,7 +33,7 @@ const Blog = () => {
                 <div className='border rounded-md p-2'>
                     <Image className="w-full h-[260px] rounded-md" src={blog2} alt=''></Image>
                     <div className="mt-6">
-                        <Link href="/romadan"><h1 className="mb-2 font-semibold cursor-pointer text-[#23306C]">Ramadan.</h1></Link>
+                        <Link href="/romadan"><h1 className="mb-2 font-bangla font-semibold cursor-pointer text-[#23306C]">মাহে রমজান</h1></Link>
                         <div className="flex justify-between items-center text-xs mt-2">
                             <div className="flex justify-between items-center gap-2">
                                 <RiAdminLine className='text-[#0B8998] font-semibold' />
@@ -49,7 +49,7 @@ const Blog = () => {
                 <div className='border rounded-md p-2'>
                     <Image className="w-full h-[260px] rounded-md" src={blog3} alt=''></Image>
                     <div className="mt-6">
-                        <Link href="/married"><h1 className="mb-2 font-semibold cursor-pointer text-[#23306C]">Marriage.</h1></Link>
+                        <Link href="/marriagecard"><h1 className="mb-2 font-bangla font-semibold cursor-pointer text-[#23306C]">বিবাহ</h1></Link>
                         <div className="flex justify-between items-center text-xs mt-2">
                             <div className="flex justify-between items-center gap-2">
                                 <RiAdminLine className='text-[#0B8998] font-semibold' />
@@ -65,7 +65,7 @@ const Blog = () => {
                 <div className='border rounded-md p-2'>
                     <Image className="w-full h-[260px] rounded-md" src={blog4} alt=''></Image>
                     <div className="mt-6">
-                        <Link href="/sunnah"><h1 className="mb-2 text-[#23306C] font-semibold cursor-pointer">Sunnah</h1></Link>
+                        <Link href="/sunnah"><h1 className="mb-2 text-[#23306C] font-bangla font-semibold cursor-pointer">সুন্নাহ</h1></Link>
                         <div className="flex justify-between items-center text-xs mt-2">
                             <div className="flex justify-between items-center gap-2">
                                 <RiAdminLine className='text-[#0B8998] font-semibold' />
@@ -80,7 +80,7 @@ const Blog = () => {
                 </div>
             </div>
             <Link href="/blog">
-                <button className="mt-8 block mx-auto rounded-md hover:bg-transparent hover:border-2 hover:border-bg-[#06DAD7] text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] px-8 py-4">See More</button>
+                <button className="mt-8 block mx-auto rounded-md hover:bg-transparent border text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] px-8 py-4">See More</button>
             </Link>
         </div>
     );

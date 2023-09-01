@@ -16,7 +16,7 @@ const Service = () => {
                     <div className="text-center">
                         <h1 className="text-3xl font-bold my-5 text-[#23306C]">Quran</h1>
                         <p className="mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                        <Link href="/quran"><button className="block mx-auto rounded-md hover:bg-transparent hover:border-2 hover:border-bg-[#06DAD7] text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] p-4">Read More</button></Link>
+                        <Link href="/quran"><button className="block mx-auto rounded-md hover:bg-transparent border text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] p-4">Read More</button></Link>
                     </div>
                 </div>
                 <div className="bg-[#f9f5f5] py-10 px-4 rounded-md">
@@ -24,7 +24,7 @@ const Service = () => {
                     <div className="text-center">
                         <h1 className="text-3xl font-bold my-5 text-[#23306C]">Mosque</h1>
                         <p className="mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                        <Link href="/mosque"><button className="block mx-auto bg-[#FF8483] p-4 rounded-md hover:bg-transparent hover:border-2 hover:border-bg-[#06DAD7] text-white font-bold hover:text-[#23306C] duration-500">Read More</button></Link>
+                        <Link href="/mosque"><button className="block mx-auto border bg-[#FF8483] p-4 rounded-md hover:bg-transparent text-white font-bold hover:text-[#23306C] duration-500">Read More</button></Link>
                     </div>
                 </div>
                 <div className="bg-[#f9f5f5] py-10 px-4 rounded-md">
@@ -32,7 +32,7 @@ const Service = () => {
                     <div className="text-center">
                         <h1 className="text-3xl font-bold my-5 text-[#23306C]">Child</h1>
                         <p className="mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                        <Link href="/child"><button className="block mx-auto hover:bg-transparent hover:border-2 hover:border-bg-[#06DAD7] text-white font-bold hover:text-[#23306C] duration-500 bg-[#DB9E2F] p-4 rounded-md">Read More</button></Link>
+                        <Link href="/child"><button className="block mx-auto hover:bg-transparent border text-white font-bold hover:text-[#23306C] duration-500 bg-[#DB9E2F] p-4 rounded-md">Read More</button></Link>
                     </div>
                 </div>
             </div>

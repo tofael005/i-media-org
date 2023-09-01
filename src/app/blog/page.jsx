@@ -42,7 +42,7 @@ const page = () => {
                         <hr />
                         <div className="my-6">
                             <h1 className="text-xl font-bangla font-bold mt-3 text-[#23306C]">সালাত</h1>
-                            <p className='font-bangla text-justify my-6'>সালাত বা নামায নিছক প্রার্থনা নয় | এটি আমাদেরকে আমাদের স্রষ্টার অনুগত করে | তাই নামায হচ্ছে আনুগত্যের অনুশীলন | নামাযের আরবি শব্দ হল Salah, এই শব্দটির অর্থ চারটি প্রসিদ্ধ রয়েছে | ১. প্রার্থনা করা, ২. অনুগ্রহ করা, ৩. পবিত্রতা বর্ণনা করা, এবং ৪. ক্ষমা প্রার্থনা করা |পারিভাষিক অর্থে সালাত বা নামায হচ্ছে এমন একটা নির্দিষ্ট ইবাদত যা নির্ধারিত সময়ে সুনির্দিষ্ট পদ্ধতিতে আদায় করা হয় | পাঁচ ওয়াক্ত নামাযের মাধ্যমে একজন মুসলমান ইসলামের পরিচালিত হয় |<Link href="/salah"><span className="text-[#0B8998] font-bold cursor-pointer ">Read More</span></Link></p>
+                            <p className='font-bangla text-justify mb-2'>সালাত বা নামায নিছক প্রার্থনা নয় | এটি আমাদেরকে আমাদের স্রষ্টার অনুগত করে | তাই নামায হচ্ছে আনুগত্যের অনুশীলন | নামাযের আরবি শব্দ হল Salah, এই শব্দটির অর্থ চারটি প্রসিদ্ধ রয়েছে | ১. প্রার্থনা করা, ২. অনুগ্রহ করা, ৩. পবিত্রতা বর্ণনা করা, এবং ৪. ক্ষমা প্রার্থনা করা |পারিভাষিক অর্থে সালাত বা নামায হচ্ছে এমন একটা নির্দিষ্ট ইবাদত যা নির্ধারিত সময়ে সুনির্দিষ্ট পদ্ধতিতে আদায় করা হয় | পাঁচ ওয়াক্ত নামাযের মাধ্যমে একজন মুসলমান ইসলামের পরিচালিত হয় |<Link href="/salah"><span className="text-[#0B8998] font-bold cursor-pointer ">Read More</span></Link></p>
                         </div>
                     </div>
                     <div>
@@ -67,7 +67,7 @@ const page = () => {
                         </div>
                         <hr />
                         <div className="my-6">
-                            <h1 className="text-xl font-bold my-3 text-[#23306C]">SUNNAH</h1>
+                            <h1 className="text-xl font-bangla font-bold mb-2 text-[#23306C]">সুন্নাহ</h1>
                             <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam similique voluptates expedita quibusdam dignissimos numquam ut ex molestias, id ad? Consequuntur blanditiis quisquam architecto alias cupiditate hic et tempora incidunt! <Link href="/sunnah"><span className="text-[#0B8998] font-bold cursor-pointer ">Read More</span></Link></p>
                         </div>
                     </div>
@@ -93,8 +93,8 @@ const page = () => {
                         </div>
                         <hr />
                         <div className="my-6">
-                            <Link href="/romadan"><h1 className="text-xl font-bold my-3 text-[#23306C]">RAMADAN Kareem</h1></Link>
-                            <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam similique voluptates expedita quibusdam dignissimos numquam ut ex molestias, id ad? Consequuntur blanditiis quisquam architecto alias cupiditate hic et tempora incidunt!<Link href="/romadan"><span className="text-[#0B8998] font-bold cursor-pointer ">Read More</span></Link></p>
+                            <Link href="/romadan"><h1 className="text-xl font-bangla font-bold mb-2 text-[#23306C]">মাহে রমজান</h1></Link>
+                            <p className="font-light font-bangla text-justify">রমাদান মাস শেষ হয়ে গেল। সাহরি, ইফতারের পবিত্র সেই আমেজ, মধুবর্ষী কুরআন তিলাওয়াত, দীর্ঘক্ষণ দাঁড়িয়ে থেকে বিতর বা তাহাজ্জুদ পড়ার সেই আকুলতা এগুলো সবই হয়তো বাহ্যিকভাবে আমাদের মাঝ থেকে বিদায় নিয়েছে। রমাদান চলে গেছে সত্য, তবুও এর রেশ তো আমাদের মনে নিশ্চয়ই রয়ে গেছে। এই রমাদানের পরশে আমরা কেউ হয়তো হয়েছি আরও শুদ্ধ, আরও পরিপূর্ণ; আবার কারও কারও অন্তরে বইছে হতাশার সুর।<Link href="/romadan"><span className="text-[#0B8998] font-bold cursor-pointer ">Read More</span></Link></p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ const page = () => {
                         <Link href="/blogcard"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>HAJJ GUID (2)</h1></Link>
                        <Link href="/helpingpoor"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300 mb-5'>HELP PEOPLE (2)</h1></Link>
                        <Link href="/zakat"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>ZAKAT (4)</h1></Link>
-                        <Link href="/learningquran"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>QURAN (2)</h1></Link>
+                        <Link href="/quran"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>QURAN (1)</h1></Link>
                         <Link href="/traveling"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>TRAVELING (2)</h1></Link>
                         <Link href="/marriagecard"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>MARRIAGE (2)</h1></Link>
                         <Link href="/roja"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>SAWM (5)</h1></Link>

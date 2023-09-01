@@ -19,6 +19,10 @@ const page = () => {
                     <hr className='my-2' />
                     <Link href="/surafil"><h1 className='hover:text-[#0B8998] duration-500'>সূরা ফীল।</h1></Link>
                     <hr className='my-2' />
+                    <Link href="/surakurais"><h1 className='hover:text-[#0B8998] duration-500'>সূরা কুরাইশ।</h1></Link>
+                    <hr className='my-2' />
+                    <Link href="/surakawser"><h1 className='hover:text-[#0B8998] duration-500'>সূরা আল-কাউসার</h1></Link>
+                    <hr className='my-2' />
                 </div>
             </div>
         </div>

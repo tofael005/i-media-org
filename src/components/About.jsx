@@ -15,7 +15,7 @@ const About = () => {
                         <p className="mb-6 font-light text-justify">Islamic Media Organization Center” is a place for the Muslim community to refresh their knowledge and non-muslims to know about Islam. It creates awareness about the Islamic lifestyle and also the teachings of the prophet Muhammad(s.a.w). The Hajj house inside the Islamic center will be more helpful and guidance for them to perform Umrah and Hajj.</p>
                         <p className="font-light text-justify">Islamic Media Organizatin Center depends on your continuous support and generosity. Donate towards one of our featured campaigns or choose a campaign</p>
                         <Link href="/about">
-                            <button className="mt-10 rounded-md hover:bg-transparent hover:border-2 hover:border-bg-[#06DAD7] text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] px-8 py-4">About More</button>
+                            <button className="mt-10 rounded-md hover:bg-transparent border text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] px-8 py-4">About More</button>
                         </Link>
                     </div>
                 </div>

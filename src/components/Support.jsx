@@ -13,7 +13,7 @@ const Support = () => {
                         <h1 className="text-4xl my-7 font-bold text-[#23306C]">We Need Your Help</h1>
                         <p className="font-light">The Weekend School of the Islamic Center of Allah is committed to providing quality Islamic Education according to the Quran.</p>
                         <Link href="/donate">
-                            <button className="mt-8 rounded-md hover:bg-transparent hover:border-2 hover:border-bg-[#06DAD7] text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] px-8 py-4">Donate Now</button>
+                            <button className="mt-8 rounded-md hover:bg-transparent border text-white font-bold hover:text-[#23306C] duration-500 bg-[#06DAD7] px-8 py-4">Donate Now</button>
                         </Link>
                     </div>
                     <Image className="w-full object-cover mt-4 h-[400px]" src={support} alt=''></Image>
