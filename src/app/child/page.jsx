@@ -7,8 +7,8 @@ import Link from 'next/link';
 const page = () => {
     return (
         <div className='max-w-[1240px] mx-auto mt-8 mb-20 font-bangla'>
-            <div className='flex gap-6 px-3'>
-                <div className='md:w-[800px]'>
+            <div className='md:flex gap-10 px-3'>
+                <div className='md:w-[800px] mb-6'>
                     <div className='border rounded-md shadow mb-6'>
                         <Image className='w-full object-cover md:h-[350px]' src={child} alt=''></Image>
                         <h1 className='text-center my-6 text-2xl'>ইসলামী গল্প বাচ্চাদের জন্য</h1>

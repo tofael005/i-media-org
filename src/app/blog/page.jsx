@@ -17,8 +17,8 @@ const page = () => {
             <h1 className="text-center text-3xl font-bold mb-6 text-[#23306C]">Letest Blog</h1>
             <div className="md:flex gap-10 px-3">
                 {/* Blog card section */}
-                <div className='md:w-[840px]'> 
-                     {/* Blog One  */}
+                <div className='md:w-[840px]'>
+                    {/* Blog One  */}
                     <div>
                         <div>
                             <Image className='w-full rounded-md object-cover md:h-[400px]' src={blog4} alt=''></Image>
@@ -104,8 +104,8 @@ const page = () => {
                     <hr />
                     <div className='mt-6 font-light'>
                         <Link href="/blogcard"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>HAJJ GUID (2)</h1></Link>
-                       <Link href="/helpingpoor"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300 mb-5'>HELP PEOPLE (2)</h1></Link>
-                       <Link href="/zakat"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>ZAKAT (4)</h1></Link>
+                        <Link href="/helpingpoor"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300 mb-5'>HELP PEOPLE (2)</h1></Link>
+                        <Link href="/zakat"><h1 className='hover:font-semibold hover:text-[#0B8998] duration-300'>ZAKAT (4)</h1></Link>
                         <Link href="/quran"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>QURAN (1)</h1></Link>
                         <Link href="/child"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>CHILD (3)</h1></Link>
                         <Link href="/sunnah"><h1 className='my-5 hover:font-semibold hover:text-[#0B8998] duration-300'>SUNNAH (7)</h1></Link>
