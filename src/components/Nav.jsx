@@ -7,6 +7,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import logo from "../../public/logo.png"
 
+
 const Nav = () => {
 
     const [toggle, setToggle] = useState(false)
