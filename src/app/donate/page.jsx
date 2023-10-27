@@ -6,6 +6,7 @@ const page = () => {
             <h1>Donate</h1>
             <h1 className='text-3xl my-4'>Coming SOON</h1>
             <p>Comming soon donation method</p>
+            <p>Comming soon donation method</p>
         </div>
     );
 };
