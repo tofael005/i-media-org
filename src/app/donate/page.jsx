@@ -8,6 +8,7 @@ const page = () => {
             <p>Comming soon donation method</p>
             <p>Comming soon donation method</p>
             <p>Comming soon donation method</p>
+            <p>Comming soon donation method</p>
         </div>
     );
 };
